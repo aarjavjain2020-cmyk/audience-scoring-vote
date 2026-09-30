@@ -1,5 +1,7 @@
 # Audience scoring — voting site
 
+**[Open the audience site](https://aarjavjain2020-cmyk.github.io/audience-scoring-vote/)** · **[Open the administrator site](https://audience-scoring-admin-aj2020.aarjavjain2020.workers.dev)**
+
 This repository contains the phone-friendly audience interface. GitHub Pages publishes `dist/`. It reads the current song and closed-song results from the separate [audience-scoring-admin](https://github.com/aarjavjain2020-cmyk/audience-scoring-admin) Cloudflare Worker and sends scores to its API.
 
 Set the admin Worker's HTTPS origin in `dist/config.js` for the event. The admin API must allow the GitHub Pages origin `https://aarjavjain2020-cmyk.github.io` through `AUDIENCE_ORIGIN`.
